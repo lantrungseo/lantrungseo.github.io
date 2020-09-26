@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Icon from '@/UI/Icon';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -22,7 +23,16 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>
+              <Icon type='github' clickURL="https://github.com/lantrungseo"/>
+              <Icon type='facebook'/>
+              <Icon type='social-medias'/>
+              <Icon type='instagram'/>
+              <Icon type='twitter'/>
+              <Icon type='linkedin' />
+            </p>
+            <p>
+              Find in-depth information about Next.js features and API.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
