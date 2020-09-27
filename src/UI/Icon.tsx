@@ -38,7 +38,11 @@ const Icon = ({ type, clickAction, clickURL }: IIconProps) => {
       }
       case 'twitter': { result.svgURL = '/twitter.svg'; break; }
       case 'github': { result.svgURL = '/github.svg'; break; }
-      case 'linkedin': { result.svgURL = '/linkedin.svg'; break; }
+      case 'linkedin': {
+        result.svgURL = '/linkedin.svg';
+        result.height = 24;
+        break;
+      }
       case 'instagram': { result.svgURL = '/instagram.png'; break; }
       case 'social-medias': {
         result.svgURL = '/social-med.svg';
