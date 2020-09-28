@@ -30,29 +30,29 @@ const Icon = ({ type, clickAction, clickURL }: IIconProps) => {
 		const result = { svgURL: '', height: 20 };
 		switch (type) {
 			case 'facebook': {
-				result.svgURL = '/facebook.svg';
+				result.svgURL = '/icons/facebook.svg';
 				result.height = 23.3;
 				break;
 			}
 			case 'twitter': {
-				result.svgURL = '/twitter.svg';
+				result.svgURL = '/icons/twitter.svg';
 				break;
 			}
 			case 'github': {
-				result.svgURL = '/github.svg';
+				result.svgURL = '/icons/github.svg';
 				break;
 			}
 			case 'linkedin': {
-				result.svgURL = '/linkedin.svg';
+				result.svgURL = '/icons/linkedin.svg';
 				result.height = 24;
 				break;
 			}
 			case 'instagram': {
-				result.svgURL = '/instagram.png';
+				result.svgURL = '/icons/instagram.png';
 				break;
 			}
 			case 'social-medias': {
-				result.svgURL = '/social-med.svg';
+				result.svgURL = '/icons/social-med.svg';
 				result.height = 27;
 				break;
 			}
