@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Icon from '@/UI/Icon';
 import Logo from '@/UI/Logo';
 import styles from '../styles/Home.module.css';
+import SideBar from '@/UI/side-bar';
 
 export default function Home() {
 	return (
@@ -10,8 +11,8 @@ export default function Home() {
 				<title>Create Next App</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
+			<SideBar />
 			<main className={styles.main}>
-				<Logo />
 				<h1 className={styles.title}>
 					Welcome to <a href='https://nextjs.org'>Next.js!</a>
 				</h1>

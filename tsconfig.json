@@ -51,11 +51,11 @@
     "jsx": "preserve"
   },
   "include": [
-    "pages",
-    "src",
+    "./pages",
+    "./src",
     "next-env.d.ts"
   ],
   "exclude": [
-    "node_modules"
+    "/node_modules"
   ]
 }
