@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Icon from '@/UI/Icon';
-import Logo from '@/UI/Logo';
 import styles from '../styles/Home.module.css';
 import SideBar from '@/UI/side-bar';
 

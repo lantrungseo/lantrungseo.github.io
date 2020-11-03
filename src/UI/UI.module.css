@@ -7,3 +7,14 @@
   vertical-align: middle;
   border-radius: 50%;
 }
+.lantrungseoNavBarBrowser{
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  overflow-y: hidden;
+  z-index: 1000;
+}
+.lantrungseoNavBarLink{
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 5px 20px;
+}
